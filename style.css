@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    max-width: 900px;
+    border: 2px solid black;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 4px 4px 12px 4px gray;
+}
+.header-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid gray;
+}
+.left-side{
+    width: 70%;
+    padding-right: 20px;
+    border-right: 2px solid #f2f2f2;
+}
+.right-side{
+    width: 30%;
+}
+.user-name{
+    font-size: 40px;
+}
+.profession{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.profile-img{
+    width: 180px;
+    height: 210px;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.contact-info img{
+    width: 25px;
+}
+.social-media-link a{
+    font-size: 20px;
+    font-weight: 500;
+}
+.main-section{
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+}
+.skill-section{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.skill-section img{
+    width: 20px;
+}
+.skill-section p{
+    font-size: 18px;
+}
+.education-section{
+    display: flex;
+    gap : 80px;
+}
+.education-section p , .education-section div p{
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+.languages-section p{
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.skill-summary-section li{
+    margin-left: 30px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.skill-summary-section h4{
+    margin: 8px;
+}
+
+.hobby-section p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
